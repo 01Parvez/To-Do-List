@@ -1,10 +1,10 @@
-# 📚 Library Management System
+# Library Management System
 
 A **production-quality full-stack Library Management System** built with **Spring Boot (Java 17)** and **React.js**.
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 library-management/
@@ -35,7 +35,7 @@ library-management/
 
 ---
 
-## ⚙️ Prerequisites
+##  Prerequisites
 
 | Tool     | Version | Download |
 |----------|---------|---------|
@@ -46,7 +46,7 @@ library-management/
 
 ---
 
-## 🚀 Setup Instructions
+## Setup Instructions
 
 ### Step 1: Configure MySQL
 
@@ -101,7 +101,7 @@ Import `postman_collection.json` from the project root into Postman.
 
 ---
 
-## 🔑 Default Credentials
+## Default Credentials
 
 | Role  | Username | Password |
 |-------|----------|----------|
@@ -154,7 +154,7 @@ GET /api/dashboard/user    # Personal stats (any user)
 
 ---
 
-## 🧪 Testing Flow (Postman)
+## Testing Flow (Postman)
 
 1. **Register**: `POST /api/auth/register` → `{ "username": "alice", "email": "alice@test.com", "password": "pass123" }`
 2. **Login**: `POST /api/auth/login` → copy the `token` from response
@@ -168,7 +168,7 @@ For admin operations, login with `admin/admin123`.
 
 ---
 
-## 💡 Business Rules
+## Business Rules
 
 | Rule | Detail |
 |------|--------|
@@ -181,7 +181,7 @@ For admin operations, login with `admin/admin123`.
 
 ---
 
-## 🔐 Security
+## Security
 
 - **JWT** - stateless authentication, 24-hour expiry
 - **BCrypt** - password hashing with cost factor 10
@@ -190,7 +190,7 @@ For admin operations, login with `admin/admin123`.
 
 ---
 
-## 📖 API Documentation (Swagger)
+## API Documentation (Swagger)
 
 Visit: **http://localhost:8080/swagger-ui.html**
 
@@ -198,7 +198,7 @@ Click **Authorize** → paste your JWT token to test protected endpoints.
 
 ---
 
-## 🗄️ Database Schema
+##  Database Schema
 
 | Table       | Description |
 |-------------|-------------|
@@ -211,7 +211,7 @@ Click **Authorize** → paste your JWT token to test protected endpoints.
 
 ---
 
-## 🛠️ Technologies
+## Technologies
 
 **Backend:** Java 17 · Spring Boot 3.2 · Spring Security · Spring Data JPA · Hibernate · MySQL · JJWT · Lombok · SpringDoc (Swagger)
 
@@ -219,7 +219,7 @@ Click **Authorize** → paste your JWT token to test protected endpoints.
 
 ---
 
-## 📌 Learning Notes
+## Learning Notes
 
 This project demonstrates:
 - **Layered Architecture** (Controller → Service → Repository → Entity)
